@@ -65,7 +65,7 @@ int main()
 
       // //   // list_add_to_back(mylist, 39);
       // //   // list_print(mylist);
-      list_add_to_back(mylist, 0);
+      list_add_to_back(mylist, 3);
       list_print(mylist);
       // list_add_to_back(mylist, 42);
       // list_add_to_back(mylist, 190);
