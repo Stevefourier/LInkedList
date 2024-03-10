@@ -23,31 +23,27 @@ int main()
       list_add_to_front(mylist, 90);
       list_add_to_front(mylist, 100);
       list_print(mylist);
-      list_remove_from_front(mylist);
+      printf("\n");
+      printf("%s\n", listToString(mylist));
+      // printf("%s\n", "100->90->80->70->60->50->40->30->20->10->NULL");
+
+      if (strcmp("100->90->80->70->60->50->40->30->20->10->NULL", listToString(mylist)) != 0)
+      {
+            printf("list_add_to_front : FAILED\n");
+      }
+      printf("TESTING THE CASES\n");
+      printf("-----------------\n");
+
       list_print(mylist);
-      list_remove_at_index(mylist,1000);
-      list_print(mylist);
-
-      // printf("%s\n", listToString(mylist));
-      // // printf("%s\n", "100->90->80->70->60->50->40->30->20->10->NULL");
-
-      // if (strcmp("100->90->80->70->60->50->40->30->20->10->NULL", listToString(mylist)) != 0)
-      // {
-      //       printf("list_add_to_front : FAILED\n");
-      // }
-      // printf("TESTING THE CASES\n");
-      // printf("-----------------\n");
-
-      // list_print(mylist);
-      list_remove_at_index(mylist, 0);
+      list_remove_at_index(mylist, 3);
       printf("******************************\n");
       list_print(mylist);
-      // printf("-----------------------\n");
 
-      // //   if(strcmp("100->90->70->60->50->40->30->20->10->NULL",listToString(mylist)) != 0)
-      // //   {
-      // //         printf("list_remove_at_index : FAILED\n");
-      // //   }
+      if(strcmp("100->90->70->60->50->40->30->20->10->NULL",listToString(mylist)) != 0)
+      {
+            printf("list_remove_at_index : FAILED\n");
+      }
+      printf("%s\n", listToString(mylist));
 
       // //   list_remove_at_index(mylist, 20);
       // //   list_print(mylist);
