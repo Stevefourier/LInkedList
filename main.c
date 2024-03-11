@@ -44,23 +44,25 @@ int main()
             printf("list_remove_at_index : FAILED\n");
       }
       printf("%s\n", listToString(mylist));
+      printf("\n");
 
-      // //   list_remove_at_index(mylist, 20);
-      // //   list_print(mylist);
-      // //   list_remove_at_index(mylist, 1);
-      // //   list_print(mylist);
-      // // list_remove_at_index(mylist, 6);
-      // // list_print(mylist);
+      list_remove_at_index(mylist, 20);
+      list_print(mylist);
+      list_remove_at_index(mylist, 1);
+      list_print(mylist);
+      list_remove_at_index(mylist, 6);
+      list_print(mylist);
 
-      // //   if(strcmp("90->70->60->50->40->20->10->NULL",listToString(mylist)) != 0)
-      // //   {
-      // //         printf("list_remove_at_index : FAILED\n");
-      // //   }
+      if(strcmp("90->80->60->50->40->20->10->NULL",listToString(mylist)) != 0)
+      {
+            printf("list_remove_at_index : FAILED\n");
+      }
+      printf("%s\n", listToString(mylist));
 
-      // //   printf("The list length is %d\n", list_length(mylist));
+      printf("The list length is %d\n", list_length(mylist));
 
-      // //   // list_add_to_back(mylist, 39);
-      // //   // list_print(mylist);
+      // list_add_to_back(mylist, 39);
+      // list_print(mylist);
       list_add_to_back(mylist, 3);
       list_print(mylist);
       // list_add_to_back(mylist, 42);
