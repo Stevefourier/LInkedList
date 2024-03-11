@@ -78,10 +78,10 @@ int main()
       printf("---------------------------------------------\n");
       printf("Adding 308 to the front of the Linked List\n");
       list_print(mylist);
-      // list_add_to_back(mylist, 70); 
-      // list_add_to_front(mylist, 290);
-      // list_print(mylist);
-      // printf("The list length is %d\n", list_length(mylist));
+      list_add_to_back(mylist, 70); 
+      list_add_to_front(mylist, 290);
+      list_print(mylist);
+      printf("The list length is %d\n", list_length(mylist));
 
       // printf("\n");
       // printf("Adding 21 at index 1 of the Linked List\n");
@@ -120,7 +120,7 @@ int main()
       // printf("Value at %d in the list?: %d\n", 12, list_get_elem_at(mylist, 12));
       // printf("Value at %d in the list?: %d\n", 7, list_get_elem_at(mylist, 7));
       printf("Index of %d?: %d\n", -70, list_get_index_of(mylist, -70));
-      // printf("Index of %d?: %d\n", 20, list_get_index_of(mylist, 20));
+      // printf("Index of %d?: %d\n", 20, list_g   et_index_of(mylist, 20));
       // printf("Index of %d?: %d\n", 0, list_get_index_of(mylist, 0));
       // printf("Index of %d?: %d\n", 10, list_get_index_of(mylist, 10));
       // printf("Index of %d?: %d\n", 90, list_get_index_of(mylist, 90));
