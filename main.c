@@ -78,15 +78,15 @@ int main()
       printf("---------------------------------------------\n");
       printf("Adding 308 to the front of the Linked List\n");
       list_print(mylist);
-      list_add_to_back(mylist, 70); 
+      list_add_to_back(mylist, 70);  
       list_add_to_front(mylist, 290);
       list_print(mylist);
       printf("The list length is %d\n", list_length(mylist));
 
-      // printf("\n");
-      // printf("Adding 21 at index 1 of the Linked List\n");
-      // list_add_at_index(mylist, 21, 1);
-      // list_print(mylist);
+      printf("\n");
+      printf("Adding 21 at index 1 of the Linked List\n");
+      list_add_at_index(mylist, 21, 1);
+      list_print(mylist);
       
       // printf("\n");
       // list_add_at_index(mylist, 65, 1);
