@@ -199,7 +199,7 @@ int main()
       // //   // list_remove_at_index(mylist, 0);
       // //   // list_print(mylist);
 
-      // //   // printf("Is %d in the list?: %d\n", 60, list_is_in(mylist, 60));
+      printf("Is %d in the list?: %d\n", 60, list_is_in(mylist, 60));
       // //   // list_add_to_back(mylist, 50);
       // //   // list_add_to_back(mylist, 60);
       // //   // list_add_to_back(mylist, 70);
